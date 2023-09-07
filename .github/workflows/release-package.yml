@@ -2,8 +2,8 @@ name: on tag
 
 on:
   push:
-    tags:
-      - "*"
+    branches:
+      - 'releases/**'
 
 jobs:
   publish-github-registry:
