@@ -1,8 +1,9 @@
 name: on release
 
 on:
-  release:
-    types: [created]
+  push:
+    tags:
+      - "*"
 
 jobs:
   publish-github-registry:
