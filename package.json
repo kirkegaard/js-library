@@ -14,5 +14,18 @@
   },
   "dependencies": {
     "parcel": "^2.9.3"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkegaard/js-library.git"
+  },
+  "bugs": {
+      "url": "https://github.com/kirkegaard/js-library/issues"
+  },
+  "homepage": "https://github.com/kirkegaard/js-library#readme"
 }
+
+
