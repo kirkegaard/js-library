@@ -1,0 +1,12 @@
+{
+  "name": "js-library",
+  "version": "1.0.0",
+  "description": "A js library template",
+  "main": "index.js",
+  "repository": "https://github.com/kirkegaard/js-library",
+  "author": "Christian Kirkegaard",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.9.3"
+  }
+}
