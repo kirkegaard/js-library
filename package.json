@@ -1,11 +1,17 @@
 {
-  "name": "js-library",
+  "name": "@kirkegaard/js-library",
   "version": "1.0.0",
   "description": "A js library template",
-  "main": "index.js",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
   "repository": "https://github.com/kirkegaard/js-library",
   "author": "Christian Kirkegaard",
   "license": "MIT",
+  "scripts": {
+    "dev": "parcel watch",
+    "build": "parcel build"
+  },
   "dependencies": {
     "parcel": "^2.9.3"
   }
